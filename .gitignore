@@ -1,0 +1,105 @@
+# ----------------------------------------------------
+# 敏感信息与私密凭证 (Sensitive Credentials)
+# ----------------------------------------------------
+.env
+.env.*
+!.env.example
+服务器信息.txt
+*.pem
+*.key
+*.cert
+
+# ----------------------------------------------------
+# 数据库与运行时数据 (Databases & Runtime Data)
+# ----------------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+app.db
+voice_collection.db
+
+# ----------------------------------------------------
+# 日志与临时调试文件 (Logs & Debugging)
+# ----------------------------------------------------
+*.log
+error.log
+build.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ----------------------------------------------------
+# 导出数据与大文件归档 (Exports & Compressed Archives)
+# ----------------------------------------------------
+exports/
+*.tar.gz
+*.zip
+*.rar
+qzcjweb-update/
+ds_20260417/
+*.b64
+*.b64.decoded
+
+# ----------------------------------------------------
+# Python 编译文件与虚拟环境 (Python Cache & Virtual Envs)
+# ----------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+.venv/
+env/
+ENV/
+
+# ----------------------------------------------------
+# Node.js & 前端依赖和产物 (Node.js & Frontend)
+# ----------------------------------------------------
+node_modules/
+voice-h5/node_modules/
+voice-h5/dist/
+voice-h5/build.log
+voice-h5/qzcjweb-update.tar.gz
+voice-h5/getApiUrl_calls.txt
+.pnp
+.pnp.js
+
+# ----------------------------------------------------
+# IDE & 编辑器配置 (IDE & Editor Configurations)
+# ----------------------------------------------------
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*~
+
+# ----------------------------------------------------
+# 操作系统生成文件 (OS Generated Files)
+# ----------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

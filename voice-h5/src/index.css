@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Alibaba+Pu+Hui+Ti:wght@400;500;700&display=swap');
+@import url('https://fonts.font.im/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Alibaba PuHuiTi';
+  src: url('https://fonts.googleapis.com/css2?family=Alibaba+Pu+Hui+Ti:wght@400;500;700&display=swap');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  font-family: 'AlibabaPuHuiTi', 'HanaMin', 'Noto Serif SC', "Microsoft YaHei", "Heiti TC", "PingFang SC", "Hiragino Sans GB", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  background-color: #f8fafc;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  -webkit-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
